@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "motd",
+	"version": "1.0.0",
+	"name": "MOTD",
+	"description": "A mod to display an MOTD",
+	"authors": ["Fantasy1002"],
+	"contact": {
+		"homepage": "justinstross.cc",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/motd/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"server": [
+			"motd.MOTD"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
